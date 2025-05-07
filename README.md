@@ -46,3 +46,31 @@ The filtered DataFrame is shown in a scrollable table using st.dataframe.
 ![image](https://github.com/user-attachments/assets/858bb644-8730-4efa-a292-f7e6d4b5e6fb)
 
 V. Data Pipeline with Database (MySQL Integration)
+1. Connect to a MySQL Database
+The app uses SQLAlchemy to establish a connection to a MySQL database (task5telumpros).
+Connection details like username, password, host, port, and database name are configured.
+
+2. Fetch and Filter Data
+A function (fetch_data) runs SQL queries to retrieve data from the database.
+It supports using parameters (like filtering by username).
+
+3. Display Data with st.dataframe
+After a user logs in, their data is displayed using st.dataframe, which creates a table-like view in the Streamlit app.
+
+4. Insert New Rows (Sign Up Form)
+The sign-up form allows new users to register by entering a username, password, and email.
+The password is hashed for security using the bcrypt library before it's stored in the database.
+
+5. User Authentication (Bonus Feature)
+Users can log in using their credentials.
+The login process includes verifying that the password entered matches the hashed password stored in the database.
+If the login is successful, the user is welcomed, and their data is shown.
+
+6. View All Users
+There's a "View Users" page that shows all usernames and emails from the users table.
+![image](https://github.com/user-attachments/assets/f6dda7c1-9d89-4acb-be60-eab947a37574)
+![image](https://github.com/user-attachments/assets/01f677d8-1660-4a8a-a931-badf67fb2f61)
+![image](https://github.com/user-attachments/assets/a1e944fe-f77b-45e9-b850-ffa1dad160a6)
+
+
+
