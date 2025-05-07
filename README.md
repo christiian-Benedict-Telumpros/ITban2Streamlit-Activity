@@ -19,6 +19,10 @@ Users can log in using their credentials.
 The login process includes verifying that the password entered matches the hashed password stored in the database.
 If the login is successful, the user is welcomed, and their data is shown.
 
+![image](https://github.com/user-attachments/assets/bcaf3578-cee1-4781-aff1-e74cc2c561cb)
+![image](https://github.com/user-attachments/assets/8f31c614-f4bb-4011-93b9-d2f2ccbbe8f8)
+
+
 ![image](https://github.com/user-attachments/assets/694f8845-483e-42ca-9713-d16e9a57c16a)
 ![image](https://github.com/user-attachments/assets/b9cc58dc-ff5c-4935-a854-493a6c49b3b3)
 ![image](https://github.com/user-attachments/assets/fc95b2f6-1986-486d-9b82-b4aabb90eeac)
