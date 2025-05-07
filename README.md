@@ -17,5 +17,7 @@ If no countries are selected or the selected ones aren’t found, a fallback to 
 4. Interactive Data Display:
 The filtered DataFrame is shown in a scrollable table using st.dataframe.
 
+![image](https://github.com/user-attachments/assets/f8b58863-275d-4494-8412-f1fe25e940fb)
+
 ![image](https://github.com/user-attachments/assets/d71a1c33-6940-4543-be0a-e2866f4573b2)
 ![image](https://github.com/user-attachments/assets/6d3c4da9-8662-48ed-8bf2-2637733c515b)
