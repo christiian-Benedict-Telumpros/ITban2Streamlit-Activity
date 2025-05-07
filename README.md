@@ -32,5 +32,8 @@ The video stream is released (capture.release()) after processing.
 Extra Touches:
 The video is flipped horizontally (cv2.flip) for a mirror effect.
 A small delay (time.sleep(0.03)) is added to reduce CPU usage
+
+![image](https://github.com/user-attachments/assets/746a8476-c872-42bf-8934-87a24c90674e)
+
 ![image](https://github.com/user-attachments/assets/5f46a31a-2b84-400d-8f84-cc5026853174)
 ![image](https://github.com/user-attachments/assets/f4762061-16f3-4a80-b21c-50842e6df757)
